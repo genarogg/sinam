@@ -1,0 +1,106 @@
+/* XL Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+.event-meta span {
+	margin-right: 5px;
+	font-size: 13px;
+}
+.single-slider {
+	min-height: 590px;
+}
+
+}
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+.single-slider {
+	min-height: 600px;
+}
+
+
+
+}
+
+
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+.header-area {
+	padding: 20px 0;
+}
+.main-menu ul.navbar-nav li a.nav-link {
+	font-weight: 400;
+	padding: 15px 0;
+}
+.main-menu ul.navbar-nav li {
+	margin-left: 0;
+	border-bottom: 1px solid #efefef;
+}
+.main-menu ul.navbar-nav li:last-child{border: 0}
+.navbar-collapse {
+	margin-top: 20px;
+}
+.navbar-light .navbar-toggler {
+	color: #29B000;
+	border-color: #29B000;
+}
+.single-slider {
+	min-height: 500px;
+}
+.slider-content h1 {
+	font-size: 50px;
+}
+.about-text p {
+	font-size: 21px;
+}
+
+
+}
+
+
+/* Extra small Device. */
+@media (max-width: 767px) {
+.header-area {
+	padding: 20px 0;
+}
+.main-menu ul.navbar-nav li a.nav-link {
+	font-weight: 400;
+	padding: 15px 0;
+}
+.main-menu ul.navbar-nav li {
+	margin-left: 0;
+	border-bottom: 1px solid #efefef;
+}
+.main-menu ul.navbar-nav li:last-child{border: 0}
+.navbar-collapse {
+	margin-top: 20px;
+}
+.navbar-light .navbar-toggler {
+	color: #29B000;
+	border-color: #29B000;
+}
+.single-slider {
+	min-height: 340px;
+}
+.slider-content h1 {
+	font-size: 32px;
+}
+.about-text p {
+	font-size: 18px;
+}
+#scrollUp {
+	bottom: 50px;
+}
+.footer-social a:first-child{margin: 0}
+.copyright {
+	margin-bottom: 20px;
+}
+
+
+}
+
+/* SM Small Device :550px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+.event-meta span {
+	font-size: 14px;
+}
+
+}

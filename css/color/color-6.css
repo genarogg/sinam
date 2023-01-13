@@ -1,0 +1,30 @@
+
+/*Primary color*/
+.main-menu ul.navbar-nav li.active a.nav-link, .main-menu ul.navbar-nav li a.nav-link:hover {
+	color: #F50079;
+}
+.slide-social a:hover {
+	border-color: #F50079;
+	background: #F50079;
+}
+.single-slider::before {
+	background: #13BFB1;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #0575E6, #F50079);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #0575E6, #F50079); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.portfolio-thumb::before {
+  background: #F50079 none repeat scroll 0 0;
+}
+.form-wrapper button {
+	background: #F50079;
+}
+.footer-social a:hover {
+	border-color: #F50079;
+	background: #F50079;
+}
+#scrollUp {
+	background: #F50079;
+}
+.footer-area {
+	border-top: 2px solid #F50079;
+}
